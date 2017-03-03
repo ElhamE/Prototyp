@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thomaskuenneth.auswahlelement">
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:allowBackup="true">
+
+        <activity
+            android:name="com.thomaskuenneth.auswahlelement.AuswahlelementActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.thomaskuenneth.auswahlelement.Werke.FragmentDemo3Activity"
+            android:label="@string/app_name">
+        </activity>
+        <activity android:name=".Werke.FragmentDemo3Activity$DetailsActivity" />
+    </application>
+
+</manifest> 

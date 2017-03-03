@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Museumsapp</string>
+    <string name="auswahl1">Oeuvres</string>
+    <string name="auswahl2">Games</string>
+    <string name="auswahl3">Offers</string>
+    <string name="auswahl4">Map</string>
+    <string name="auswahl5">Guest Book</string>
+    <string name="menu1">Sign In</string>
+    <string name="menu2">About Us</string>
+    <string name="menu3">Legal Status</string>
+</resources>
