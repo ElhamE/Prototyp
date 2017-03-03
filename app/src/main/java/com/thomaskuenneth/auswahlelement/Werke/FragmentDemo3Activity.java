@@ -34,8 +34,8 @@ public class FragmentDemo3Activity extends Activity {
 
         private static final String STR_ZULETZT_SELEKTIERT = "zuletztSelektiert";
 
-        boolean zweiSpaltenModus;
-        int zuletztSelektiert = 0;
+        private boolean zweiSpaltenModus;
+        private int zuletztSelektiert = 0;
 
         @Override
         public void onActivityCreated(Bundle savedInstanceState) {
